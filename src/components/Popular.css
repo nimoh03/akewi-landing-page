@@ -1,0 +1,17 @@
+.popular-conatiner{
+    padding: 60px 10px;
+}
+
+    .popular-conatiner h3{
+        text-align: center;
+        padding-bottom: 30px;
+}
+
+.popular-card-holder{
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

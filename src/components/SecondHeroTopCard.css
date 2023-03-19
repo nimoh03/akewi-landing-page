@@ -1,0 +1,37 @@
+
+.card{
+  width: 219px;
+  height: 130px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6px;
+  background: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 10px 5px gainsboro;
+}
+
+.card-img{
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+.card-img img{
+    width: 60px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: auto;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+
+}

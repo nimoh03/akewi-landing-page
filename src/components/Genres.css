@@ -1,0 +1,21 @@
+.genres{
+    padding: 15px 0;
+    height: max-content;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media screen and (max-width:723px) {
+    .genres{
+        all: unset;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
